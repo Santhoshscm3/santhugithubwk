@@ -1,9 +1,9 @@
 #include <stdio.h>
-int main()
+int pal()
 {
     int n, reversedInteger = 0, remainder, originalInteger;
 
-    printf("Enter an integer: ");
+    printf("\nEnter an integer: ");
     scanf("%d", &n);
 
     originalInteger = n;

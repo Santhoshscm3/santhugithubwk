@@ -1,9 +1,9 @@
 #include <stdio.h>
-int main()
+int rev()
 {
     int n, reversedNumber = 0, remainder;
 
-    printf("Enter an integer: ");
+    printf("\nEnter an integer: ");
     scanf("%d", &n);
 
     while(n != 0)
